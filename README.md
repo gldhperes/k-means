@@ -7,9 +7,9 @@
 Em outras palavras podemos dizer que é um sistema que categoriza objetos parecidos ou com alguma semelhança.
 
 Esse algoritmo funciona escolhendo n-centroids, que serão os modelos a serem seguidos, em seguida:
--> Passo 1: Cada objeto(observação), faz um cálculo de pitágoras (c² = a² + b²) para achar o Centoride mais perto.
--> Passo 2: As novas coordenadas dos centroids serão a média da soma das coordenadas x's e y's dos objetos que contem o centroide mais próximo.
--> Passo 3: Verifica se conjunto de centroid é o mesmo do anterior. SE SIM então o algoritimo acaba, SE NÃO então volta para o passo 1.
+- Passo 1: Cada objeto(observação), faz um cálculo de pitágoras (c² = a² + b²) para achar o Centoride mais perto.
+- Passo 2: As novas coordenadas dos centroids serão a média da soma das coordenadas x's e y's dos objetos que contem o centroide mais próximo.
+- Passo 3: Verifica se conjunto de centroid é o mesmo do anterior. SE SIM então o algoritimo acaba, SE NÃO então volta para o passo 1.
 
 https://github.com/gldhperes/k-means/assets/111309686/e10a5925-199e-4df4-a939-111495db2fae
 
