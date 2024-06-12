@@ -202,6 +202,7 @@ public class K_Means : MonoBehaviour
         {
             GameObject prefab = Instantiate(content_prefab);
             prefab.transform.SetParent(content.transform);
+            prefab.transform.localScale = Vector3.one;
 
             Best_Choice best_Choice = prefab.GetComponent<Best_Choice>();
 
